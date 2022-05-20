@@ -1,0 +1,31 @@
+ <link rel="stylesheet" href="assets/css/main.css" />
+ 
+ <h1><strong>Contact Us</strong></h1>
+ 
+ <head>
+	<title>InspectoBot | Contact Form</title>
+ </head>
+ 
+ <div class="container">
+  <form action="mailto:benjamin.wlangman@gmail.com" method="POST" enctype = "multipart/form-data" name="EmailForm">
+	<div class="input">
+		<label for="fname">Email address*</label>
+		<input type="text" id="email" name="email" placeholder="...">
+
+		<label for="lname">Name</label>
+		<input type="text" id="name" name="name" placeholder="...">
+
+		<label for="country">Company/Organization</label>
+		<input type="text" id="company" name="company" placeholder="...">
+	
+		<label for="subject">Message*</label>
+		<textarea id="subject" name="message" placeholder="..." style="height:200px"></textarea>
+
+		<input type="checkbox" id="newsletter" name="signup" value="signup" checked>
+		<label for="newsletter"> Sign up for our newsletter.</label><br>
+	</div>
+	<div class="input">
+		<input type="submit" value="Submit">
+	</div>
+  </form>
+</div> 
