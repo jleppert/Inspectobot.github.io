@@ -11,16 +11,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/oldMain.css" />
 	</head>
-	<body class="landing">
-
+	<body class="landing"></body>
+	
 		<!-- Header -->
-			<header id="header" class="alt">
+			<header id="header"class="alt"> <!--   use for alternate coloring & transparent banner-->
 				<h1><a href="index.html"><img src="inspectologo.png" height="100%" alt="InspectoBot"></a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="solution.html">Our Solution</a></li>
-						<li><a href="company.html">About Us</a></li>
+						<div class="divider"></div>
+						<!--<li><a href="company.html">About Us</a></li>-->
+						<div class="dropdown">
+							<!--<button class="dropbtn">About Us</button>-->
+							<li><a href="company.html">About Us</a></li>
+							<div class="dropdown-content">
+								<a href="index.html">Home</a>
+								<a href="solution.html">Our Solution</a>
+							</div>
+						</div>
 						<!--<div class="dropdown">
 							<button class="dropbtn">Dropdown</button>
 							<div class="dropdown-content">
@@ -29,7 +38,7 @@
 							  <a href="#">Link 3</a>
 							</div>
 						  </div>--> 
-						<li><a href="https://inspectobot.us8.list-manage.com/subscribe/post?u=75884c35721c9b00e555fb8a4&amp;id=18736611fe" class="button special big">Contact Us</a></li>
+						<li><a href="https://inspectobot.us8.list-manage.com/subscribe/post?u=75884c35721c9b00e555fb8a4&amp;id=18736611fe" class="button special">Contact Us</a></li>
 						
 						
 					</ul>
