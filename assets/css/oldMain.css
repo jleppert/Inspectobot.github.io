@@ -1604,7 +1604,7 @@
 
 	body {
 		background-color: #000;
-		color: #666;
+		color: #bbb;
 	}
 
 	body, input, select, textarea {
@@ -1677,7 +1677,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #484848;
+		color: #ddd;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2613,7 +2613,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #ddd;
 		position: relative;
 		margin: 0 0 1.5em 0;
 		text-transform: uppercase;
@@ -3165,7 +3165,7 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #ddd;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
