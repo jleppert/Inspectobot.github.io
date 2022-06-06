@@ -2358,10 +2358,12 @@
 
 		.image.left, .image.right {
 			max-width: 40%;
+			max-height: height;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
+				max-height:170px;
 			}
 
 		.image.left {
@@ -2397,23 +2399,27 @@
 
 		.image.rounded.left {
 			max-width:40%;
+			max-height:height;
 			float:left;
 			border-radius: 100%;
 			padding: 0 1.5em 1em 0;
 		}
 			.image.rounded.left img {
 				width:100%;
+				max-height:170px;
 				border: none;	
 				}
 
 		.image.rounded.right {
 			max-width:40%;
+			max-height:height;
 			float:right;
 			border-radius: 100%;
 			padding: 0 1.5em 1em 0;
 		}
 			.image.rounded.right img {
 			width:100%;
+			max-height:170px;
 			/*border: solid 0.5em rgba(144, 144, 144, 0.25);*/ /*the frame*/
 			}
 
