@@ -2025,7 +2025,7 @@
 	}
 
 	.dropdown:hover .dropbtn {
-		background-color: #3e8e41;
+		background-color: #efdc00;
 
 	}
 
@@ -2894,7 +2894,7 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #666;
+						color: #ccc; /*header button color, screwy area*/
 						display: inline-block;
 						text-decoration: none;
 					}
