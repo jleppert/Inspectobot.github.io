@@ -2982,11 +2982,12 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 100%;
+		
 		left: 0;
 		position: absolute;
 		top: 0;
-		width: 100%;
+		width:72px;
+		height:72px;
 		display: none;
 	}
 
@@ -3198,9 +3199,9 @@
 				padding: 6em 2em 6em 2em;
 			}
 
-				#banner br {
-					display: none;
-				}
+			#banner br {
+				display: none;
+			}
 
 				#banner h2 {
 					font-size: 2.25em;
