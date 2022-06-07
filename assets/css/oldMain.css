@@ -1941,7 +1941,7 @@
 /*Drop Down button*/
 	.dropbtn {
 		background-color: none;
-		color: black;
+		color: #ccc;
 		padding: 16px;
 		font-size: 16px;
 		border: none;
@@ -1949,16 +1949,16 @@
 	}
 
 	.dropdown {
-		color:black;
+		color:none;
 		position: relative;
 		display: inline-block;
 	}
 
 	.dropdown-content {
-		color: black;
+		color: none;
 		display: none;
 		position: absolute;
-		background-color: #555;
+		background-color: #1a1f24;
 		min-width: 300px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 		padding: 12px 16px;
@@ -1966,7 +1966,7 @@
 	}
 
 	.dropdown-content a{
-		color: black;
+		color: #ccc; /*dropdown button color, screwy area*/
 		padding: 12px 16px;
 		text-decoration: none;
 		display:block;
@@ -2885,7 +2885,7 @@
 					}
 
 						#header nav ul li a:hover {
-							color: #484848;
+							color: #aaa;
 						}
 
 					#header nav ul li:first-child {
@@ -2945,7 +2945,7 @@
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: #FFF;/*screwy area*/
+						color: #ddd;/*screwy area*/
 					}
 
 			#header.alt .button {
