@@ -2849,7 +2849,7 @@
 			margin: 0;
 			padding: 0;
 			position: absolute;
-			top: 0;
+			top: .6em; /*for resized logo*/
 		}
 
 		#header nav {
@@ -2870,7 +2870,7 @@
 				#header nav ul li {
 					border-radius: 4px;
 					display: inline-block;
-					margin-left: none; /*button spacing dependent on using div*/
+					margin-left: none; /*spacing dependent on using div*/
 					padding-left: 0;
 				}
 
@@ -2928,7 +2928,7 @@
 			#header.alt h1 {
 				color: #ffffff;
 				left: .9em; /*responsive fix*/
-				top: 2em;
+				top: 1em; /*to better match regular nav and other logo position*/
 			}
 
 				#header.alt h1 a { 
@@ -2937,7 +2937,7 @@
 
 			#header.alt nav {
 				right: 2em;
-				top: 2em;
+				top: 1em;
 			}
 
 				#header.alt nav a {
