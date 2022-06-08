@@ -11,6 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/oldMain.css" />
 	</head>
+	<style>
+		.dropbtn {
+			background-color: transparent;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+			cursor: pointer;
+  		}
+  
+ 		.dropbtn:hover, r
+  
+  		.dropdown a:hover {background-color: #1f1f1f;}
+  
+  		.show {display: block;}
+	</style>
 	<body class="landing"></body>
 	
 		<!-- Header -->
@@ -21,11 +37,11 @@
 						<li><a href="index.html">Home</a></li>
 						<div class="divider left"></div>
 						<div class="dropdown">
-							<li style="color:#fff">About Us</li>
-							<div class="dropdown-content">
-								<a href="story.html">Our Story</a>
-								<a href="team.html">Founding Team</a>
-							</div>
+							<button onclick="dropFunc()" class="dropbtn">About Us</button>
+  							<div id="myDropdown" class="dropdown-content">
+    							<a href="story.html">Our Story</a>
+    							<a href="team.html">Founding Team</a>
+  							</div>
 						</div>
 						<div class="divider right"></div>
 						<div class="divider left"></div>
@@ -188,6 +204,24 @@
 			</footer>
 
 		<!-- Scripts -->
+			<script>
+
+			function dropFunc() {
+			  document.getElementById("myDropdown").classList.toggle("show");
+			}
+				window.onclick = function(event) {
+		  		if (!event.target.matches('.dropbtn')) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+					  var openDropdown = dropdowns[i];
+					  if (openDropdown.classList.contains('show')) {
+						openDropdown.classList.remove('show');
+					  }
+					}
+				  }
+				}
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>

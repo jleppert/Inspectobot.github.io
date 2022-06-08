@@ -1951,7 +1951,7 @@
 
 		}
 
-/*Drop Down button*/
+/*Drop Down button
 	.dropbtn {
 		background-color: none;
 		color: #ccc;
@@ -1979,7 +1979,7 @@
 	}
 
 	.dropdown-content a{
-		color: #ccc; /*dropdown button color, screwy area*/
+		color: #ccc; dropdown button color, screwy area
 		padding: 12px 16px;
 		text-decoration: none;
 		display:block;
@@ -1997,6 +1997,47 @@
 		background-color: #efdc00;
 
 	}
+
+dropdown 2
+
+
+	input[type=checkbox]{
+		display:none;
+	}
+	ul.ul2{
+		display:none;
+	}
+	input[type=checkbox]:checked ~ ul.ul2{
+		display:block;
+	}
+*/
+
+.dropbtn:focus {
+	background-color: black;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	color: none;
+	display: none;
+	position: absolute;
+	background-color: #192227;
+	min-width: 300px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+  
+  .dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
 
 /* Feature */
 
