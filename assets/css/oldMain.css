@@ -97,7 +97,7 @@
 	}
 
 	.container #video{
-		width:240px;
+		width:6em;
 		border-radius:10px;
 	}
 
@@ -1652,7 +1652,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ddd;
-		font-weight: 700;
+		font-weight: 350;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
@@ -2407,7 +2407,7 @@
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.rounded {
@@ -2691,7 +2691,7 @@
 	}
 
 	header.major {
-		margin: 0 0 6em 0;
+		margin: 0 0 2em 0;
 	}
 
 		header.major h2 {
@@ -2700,7 +2700,7 @@
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
-			margin: 0 0 0.8em;
+			margin-bottom: .5em;
 		}
 
 		header.major p {
@@ -2841,14 +2841,14 @@
 
 		.wrapper.style2 {
 			background-color: #192227;
-			padding-left: 4em;
-			padding-right: 4em;
-			height: 40em;
+			padding-left: 6em;
+			padding-right: 16em;
+			height: 30em;
 		}
 		/*change landing page image here*/
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/bannerTemp.jpg");
+			background-image: url("images/overlay.png"), url("../../images/RoverCaseR1.PNG");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3208,7 +3208,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/bannerTemp.jpg");
+		background-image: url("images/overlay.png"), url("../../images/RoverCaseR1.PNG");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
