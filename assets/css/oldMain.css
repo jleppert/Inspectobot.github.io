@@ -96,6 +96,11 @@
 		width: 80em;
 	}
 
+	.container #video{
+		width:240px;
+		border-radius:10px;
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.container.\31 25\25 {
@@ -1633,7 +1638,7 @@
 		}
 
 	strong, b {
-		color: #484848;
+		/*color: #484848;*/
 		font-weight: 700;
 	}
 
@@ -2352,6 +2357,13 @@
 			display: none;
 		}
 
+/*Video*/
+	video {
+		width: 20em;
+    	/*height: height;*/
+		object-fit: cover;
+	}
+
 /* Image */
 
 	.image {
@@ -2470,6 +2482,7 @@
 			.image.main img {
 				width: 100%;
 			}
+				
 
 /* List */
 
@@ -2828,6 +2841,9 @@
 
 		.wrapper.style2 {
 			background-color: #192227;
+			padding-left: 4em;
+			padding-right: 4em;
+			height: 40em;
 		}
 		/*change landing page image here*/
 		.wrapper.style3 {
@@ -3204,10 +3220,10 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #eee;
 			display: inline-block;
-			font-size: 3.5em;
-			line-height: 1.35;
+			font-size: 2.5em;
+			line-height: 1.25;
 			margin-bottom: 0.5em;
 		}
 
