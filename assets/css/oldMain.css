@@ -2928,6 +2928,7 @@
 				#header nav ul li {
 					border-radius: 4px;
 					display: inline-block;
+					color: #ccc;
 					margin-left: none; /*spacing dependent on using div*/
 					padding-left: 0;
 				}
@@ -2997,6 +2998,10 @@
 				right: 2em;
 				top: 1em;
 			}
+
+				#header.alt nav ul li {
+					color: #fff;
+				}
 
 				#header.alt nav a {
 					color: #fff;/*menu buttons, screwy area*/
