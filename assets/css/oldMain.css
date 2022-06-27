@@ -81,6 +81,7 @@
 		display:table-cell;
   		width:33%;
 	}
+	
 /* Box Model */
 
 	*, *:before, *:after {
@@ -206,9 +207,6 @@
 			width: 22.5%;
 		}
 
-		.container {
-			width: 90% !important;
-		}
 
 	}
 
