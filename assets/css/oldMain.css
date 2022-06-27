@@ -51,6 +51,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.fa-hand-holding-dollar, .fa-square-poll-vertical, .fa-magnifying-glass{
+		color: #F3EA0E; /*icon color*/
+	}
+
 	.divider{
 		height:auto;
 		display:inline-block;
@@ -61,7 +65,22 @@
 		.divider.right{ /*used to correctly space mobile menu*/
 			width:none;
 		}
+		
+	.inline-div{
+		display: table;
+		text-align: center;
+		width:100%;	
+	}
 
+
+	.segment-div{
+		display: table-cell;
+		width:50%;
+		font-size: 3em;
+		line-height: 1.5em;
+		display:table-cell;
+  		width:33%;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
@@ -76,6 +95,11 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.container.bBanner { /*custom container for lower banner element on home page*/
+		margin-right: 6em !important; 
+	}
+
 
 	.container.\31 25\25 {
 		width: 100%;
@@ -1676,19 +1700,25 @@
 		line-height: 1.5em;
 	}
 
-	h4 {
-		font-size: 1.1em;
+	h4 { /*icon header*/
+		font-size: 1em;
 		line-height: 1.5em;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 0.6em;
 		line-height: 1.5em;
+		margin-bottom: .5em;
+		text-transform: none;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 0.4em;
 		line-height: 1.5em;
+		text-transform: none;
+		text-align: center;
+		margin-left: 2em;
+		width:80%;
 	}
 
 	sub {
@@ -2061,7 +2091,7 @@
 
 		.feature-grid .feature {
 			display: inline-block;
-			float: left;
+			float: right;
 			margin-bottom: 3em;
 			width: 50%;
 		}
@@ -2099,15 +2129,21 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 980px) { /*feature grid edit*, screwy area*/
+
+			.feature-grid {
+				position: relative;
+				width: 85%;
+			}
 
 			.feature-grid .feature {
+				position: relative;
 				display: block;
-				width: 100%;
+				width: 85%;
 			}
 
 				.feature-grid .feature .content {
-					width: 65%;
+					width: 35%;
 				}
 
 				.feature-grid .feature .image {
@@ -2670,7 +2706,7 @@
 		color: #ddd;
 		position: relative;
 		margin: 0 0 1.5em 0;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 	header h2 + p {
@@ -2844,16 +2880,17 @@
 
 		.wrapper.style2 {
 			background-color: #192227;
-			padding-left: 6em;
-			padding-right: 6em;
-			height: 30em;
+			padding-left: 2.2em;
+			padding-right: 2.2em;
+			height: 28em;
 		}
 		/*change landing page image here*/
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/roverRender1.png");
+			background-image: url("images/overlay.png"), url("../../images/roboRender1.png");
 			background-position: center center;
 			background-size: cover;
+			
 		}
 
 			.wrapper.style3 header.major {
