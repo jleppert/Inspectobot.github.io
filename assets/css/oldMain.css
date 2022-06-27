@@ -180,6 +180,12 @@
 
 	}
 
+	@media screen and (max-width: 980px){
+		.container {
+			width: 90% !important; /*out of bounds fix, screwy area*/
+		}
+	}
+
 	@media screen and (max-width: 480px) {
 
 		.container.\31 25\25 {
@@ -1673,8 +1679,14 @@
 		font-style: italic;
 	}
 
-	p {
+	/*p {
 		margin: 0 0 2em 0;
+	}*/
+
+	.altP{
+		font-size: 1.25em;
+		margin-top: -1em;
+		line-height: 1.5em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2875,7 +2887,7 @@
 
 		.wrapper > .inner {
 			margin: 0 auto;
-			width: 60em;
+			width: 100%;
 		}
 
 		.wrapper.style2 {
@@ -2912,7 +2924,7 @@
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 0 2em 0;
+				padding: 4em 0em 2em 0em;
 			}
 
 		}
