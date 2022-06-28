@@ -66,7 +66,7 @@
 			width:none;
 		}
 		
-	.inline-div{
+	/*.inline-div{
 		display: table;
 		text-align: center;
 		width:100%;	
@@ -75,12 +75,48 @@
 
 	.segment-div{
 		display: table-cell;
-		width:50%;
 		font-size: 3em;
 		line-height: 1.5em;
 		display:table-cell;
-  		width:33%;
+		width:33%;
+	}*/
+
+	.small_banners {
+		float: left;
+		clear: both;
+		width: 100%;
+		margin: 0 0 15px;
 	}
+
+	.small_banners .banner_block {
+		display: table-cell;
+		max-width: 100%;
+		height: auto;
+		line-height: 1.5em;
+		font-size:3em;
+		width: 33%;
+		float:left;
+		text-align:center;
+	}
+
+
+	@media (max-width: 980px) {
+		.small_banners .banner_block {
+			width:66%;
+		}
+
+		.wrapper.style4{
+			height:60em !important;
+		}
+	}
+
+	@media(max-width: 640px){
+		.wrapper.style4{
+			height:76em !important;
+		}
+	}
+
+
 	
 /* Box Model */
 
@@ -1719,6 +1755,7 @@
 		font-size: 0.6em;
 		line-height: 1.5em;
 		margin-bottom: .5em;
+		
 		text-transform: none;
 	}
 
@@ -1727,7 +1764,7 @@
 		line-height: 1.5em;
 		text-transform: none;
 		text-align: center;
-		margin-left: 2em;
+		margin-left: 4vw;
 		width:80%;
 	}
 
@@ -2886,6 +2923,10 @@
 		.wrapper > .inner {
 			margin: 0 auto;
 			width: 100%;
+		}
+
+		.wrapper.style4{
+			height:38em;
 		}
 
 		.wrapper.style2 {
