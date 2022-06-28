@@ -143,9 +143,8 @@
 	@media (max-width: 980px) {
 		.small_banners .banner_block {
 			width:66%;
-			float:left; /*set to none when ready to limit width of icon subtext*/
+			float:none; /*set to none when ready to limit width of icon subtext*/
 		}
-
 		.small_bannersAlt .banner_blockAlt {
 			width:100%;
 			float:left; /*set to none when ready to limit width of icon subtext*/
@@ -2520,7 +2519,7 @@
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 60%;
 				max-height:280px;
 			}
 
@@ -2986,9 +2985,9 @@
 
 		.wrapper.style2 {
 			background-color: #192227;
-			padding-left: 2.2em;
-			padding-right: 2.2em;
-			height: 28em;
+			/*padding-left: 6em;
+			padding-right: 6em;*/
+			height: 20em;
 		}
 		/*change landing page image here*/
 		.wrapper.style3 {
