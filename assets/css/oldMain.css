@@ -77,7 +77,7 @@
 		width: 100%;
 		margin: 0 0 15px;
 	}
-	.small_banners-alt{
+	.small_bannersAlt{
 		float: left;
 		clear: both;
 		width: 100%;
@@ -95,7 +95,7 @@
 		text-align:center;
 	}
 
-	.small_banners-alt .banner_block-alt {
+	.small_bannersAlt .banner_blockAlt {
 		display: inline;
 		max-width: 100%;
 		height: auto;
@@ -146,14 +146,26 @@
 			float:left; /*set to none when ready to limit width of icon subtext*/
 		}
 
+		.small_bannersAlt .banner_blockAlt {
+			width:100%;
+			float:left; /*set to none when ready to limit width of icon subtext*/
+		}
+
 		.wrapper.style4{
 			height:68em !important;
+		}
+
+		.wrapper.style5{
+			height: 74em !important;
 		}
 	}
 
 	@media(max-width: 640px){
 		.wrapper.style4{
-			height:78em !important;
+			height:80em !important;
+		}
+		.wrapper.style5{
+			height:86em !important;
 		}
 	}
 
