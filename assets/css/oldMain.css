@@ -169,11 +169,21 @@
 		.wrapper.style5{
 			height:85em !important;
 		}
+
+		.wrapper.style5_short{
+			height: 20em !important;
+		}
 	}
 
 	@media (max-width: 490px){
 		.wrapper.style5{
 			height:90em !important;
+		}
+	}
+
+	@media (max-width: 450px){
+		.wrapper.style5_short{
+			height:22em !important;
 		}
 	}
 
@@ -3049,7 +3059,7 @@
 		}
 
 		.wrapper.style5_short{
-			height:24em;
+			height:18em;
 			background-color: #192227;
 		}
 
