@@ -184,6 +184,9 @@
 		.wrapper.style5{
 			height:95em !important;
 		}
+		.wrapper.style4_short{
+			height: 26em !important;
+		}
 		
 	}
 
@@ -211,6 +214,18 @@
 	@media (max-width: 350px){
 		.wrapper.style5{
 			height:115em !important;
+		}
+	}
+
+	@media (max-width: 340px){
+		.wrapper.style4_short{
+			height:28em !important;
+		}
+	}
+
+	@media (max-width: 330px){
+		.wrapper.style4_short{
+			height:30em !important;
 		}
 	}
 
