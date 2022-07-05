@@ -280,6 +280,9 @@
 		.wrapper.styleT{
 			height: 9em !important;
 		}
+		.wrapper.style4_short{
+			height:30em !important;
+		}
 	}
 
 
@@ -315,9 +318,7 @@
 	}
 
 	@media (max-width: 340px){
-		.wrapper.style4_short{
-			height:28em !important;
-		}
+		
 	}
 
 	@media (max-width: 330px){
