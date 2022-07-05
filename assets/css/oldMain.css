@@ -126,7 +126,7 @@
 		line-height: 1.5em;
 		text-transform: none;
 		text-align: center;
-		margin-left: 3.2vw;
+		margin-left: 2.5vw;
 		width:80%;
 	}
 
@@ -139,6 +139,44 @@
 		width:80%;
 	}
 
+	.solutionP1{
+		font-size: 0.4em;
+		line-height: 1.5em;
+		text-transform: none;
+		text-align: center;
+		margin-left: 3.75vw;
+		width:80%;
+	}
+	
+	.solutionP2{
+		font-size: 0.4em;
+		line-height: 1.5em;
+		text-transform: none;
+		text-align: center;
+		margin-left: 3.2vw;
+		width:80%;
+	}
+
+	.tower{
+		width:50%;
+	}
+
+	/* custom scaling*/
+
+	@media (max-width: 1680px){
+		.problemP2{
+			margin-left: 2.4vw !important;
+		}
+		.problemP3{
+			margin-left: 2.5vw !important;
+		}
+	}
+
+	@media (max-width: 1180px){
+		.solutionP1{
+			margin-left:4.2vw !important;
+		}
+	}
 
 	@media (max-width: 980px) {
 		.small_banners .banner_block {
@@ -157,11 +195,40 @@
 		.wrapper.style5{
 			height: 74em !important;
 		}
+
+		.problemP1{
+			margin-left: 8vw !important;
+		}
+		.problemP2{
+			margin-left: 8vw !important;
+		}
+		.problemP3{
+			margin-left: 8vw !important;
+		}
+		.solutionP1{
+			margin-left: 8vw !important;
+		}
+		.solutionP2{
+			margin-left: 8vw !important;
+		}
 	}
 
 	@media (max-width: 810px){
 		.wrapper.style5{
 			height: 80em !important;
+		}
+	}
+
+	@media (max-width: 736px){
+		.wrapper.styleT{
+			height: 9em !important;
+		}
+	}
+
+
+	@media (max-width:630px){
+		h5{
+			font-size: .7em !important;
 		}
 	}
 
@@ -178,6 +245,12 @@
 	@media (max-width: 490px){
 		.wrapper.style5{
 			height:90em !important;
+		}
+	}
+
+	@media (max-width: 480px){
+		.wrapper.styleT{
+			height: 7em !important;
 		}
 	}
 
@@ -200,6 +273,13 @@
 		
 	}
 
+	@media (max-width: 419px){
+		.wrapper.styleT{
+			height: 9em !important;
+		}
+	}
+
+
 	@media (max-width: 410px){
 		.wrapper.style5{
 			height:100em !important;
@@ -209,6 +289,10 @@
 	@media (max-width: 383px){
 		.wrapper.style5{
 			height:106em !important;
+		}
+
+		h5{
+			font-size: .65em !important;
 		}
 	}
 
@@ -239,7 +323,7 @@
 		}
 	}
 
-
+	/*end of custom scaling*/
 	
 /* Box Model */
 
@@ -2593,7 +2677,10 @@
 				width: 60%;
 				max-height:280px;
 			}
-
+			
+			.image.left.alt img{
+				width:80%;
+			}
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
@@ -3043,6 +3130,10 @@
 		.wrapper > .inner {
 			margin: 0 auto;
 			width: 100%;
+		}
+
+		.wrapper.styleT{
+			height:12em;
 		}
 
 		.wrapper.style4{
