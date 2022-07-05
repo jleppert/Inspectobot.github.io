@@ -252,6 +252,9 @@
 		.wrapper.styleT{
 			height: 7em !important;
 		}
+		.wrapper.style4_short{
+			height:28em !important;
+		}
 	}
 
 	@media (max-width: 450px){
