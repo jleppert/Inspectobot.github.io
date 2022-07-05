@@ -162,7 +162,7 @@
 	}
 
 	.formDiv{
-		margin-left:26vw;
+		margin-left:24vw;
 	}
 
 	/* custom scaling*/
@@ -173,6 +173,9 @@
 		}
 		.problemP3{
 			margin-left: 2.5vw !important;
+		}
+		.formDiv{
+			margin-left:24vw;
 		}
 	}
 
