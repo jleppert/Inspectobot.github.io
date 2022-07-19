@@ -3393,6 +3393,14 @@
 
 /* Menu */
 
+		.mobileLogo {
+			margin-left:auto;
+			margin-right:auto;
+			display:none;
+			height:3em;
+			width:50%;
+		}
+
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
@@ -3416,10 +3424,18 @@
 
 		@media screen and (max-width: 980px) {
 
-			.navPanelToggle {
+			.navPanelToggle, .mobileLogo {
 				display: block;
 			}
 
+		}
+
+		@media screen and (max-width: 420px){
+			.mobileLogo{
+				height:2.25em;
+				margin-top: .36em;
+				margin-bottom: .36em;
+			}
 		}
 
 		.navPanelToggle *:before {
